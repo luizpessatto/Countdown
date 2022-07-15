@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    font-size:1.2rem;
+    font-family: 'Poppins';
+}
+body {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(10, 10, 10);
+}
+header{
+    display: block;
+    max-width: 100%;
+}
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #807cdb;
+    margin-bottom: 1rem;
+}
+.countdown{
+    display: flex;
+    color: white;
+    background: rgba(36, 31, 31, 0.158);
+    margin-bottom: 2rem;
+}
+.count-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    width:140px;
+    height:100px;
+    flex-direction: column;
+}
+.count-wrapper div{
+    font-size: 4rem;;
+    font-weight:900;
+    color:#999;
+}
+.count-wrapper span{
+    width:100%;
+    text-align: center;
+    padding: .2rem 0;
+    background: rgba(36, 31, 31, 0.034);
+}
+.subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9C9AB6;
+    margin-bottom:1rem;
+}
+.botao{
+    background-color: rgb(199, 185, 56);
+    text-align: center;
+    border-radius: 0.4rem;
+    box-shadow: rgb(255, 255, 255);
+}
+.botaozin{
+    margin: 1rem;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+}
+section > img{
+    max-width: 100%;
+}
+.topimg, .bottomimg{
+    width:99.9vw;
+}
+.bottomimg{
+    margin-bottom: -19.5rem;
+    
+}
+
+.alert{
+    animation:alert 1s linear infinite alternate;
+}
+@keyframes alert {
+    0%{
+        background:rgb(10, 10, 10);
+    }
+    100%{
+        background: rgb(27, 44, 138);
+    }
+
+
+}
